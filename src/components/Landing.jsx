@@ -1,13 +1,4 @@
 import React from "react";
-import doc from "../img/doc.png"
-import ourservice from "../img/ourservice.png"
-import hinda from "../img/Hinda.png"
-import sage from "../img/Sage.png"
-import sonia from "../img/sonia.png"
-import pascal from "../img/pascal.png"
-import iradukunda from "../img/iradukunda.png"
-import magali from "../img/magali.png"
-import laura from "../img/laura.png"
 
 const capacity = "https://gruninfoundation.org/wp-content/uploads/2019/12/GG_Illustration_Pillars_Capacity_1075x715-1.png";
 const Landing = () => {

@@ -1,10 +1,8 @@
-import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { loginUser } from "../slices/authSlice";
+import { useEffect } from "react";
+import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 const Home = () => {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
   const auth = useSelector((state) => state.auth);
 
   useEffect(() => {
