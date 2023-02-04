@@ -209,13 +209,6 @@ function Nav() {
           we devised a service that would empower healthcare providers in Rwanda to transform their data into valuable information.
            Doing so we plan to increase local evidence production and reduce the need for healthcare consultants and data training.
           </div>
-
-          <div className="font-Sans-serif; text-2xl w-11/12 font-light leading-12 tracking-tight ">
-          At Health Data Science and Research, we have identified that one of the biggest problems with healthcare services 
-          in Rwanda is poor data quality in electronic health records. To help improve the quality of data, we devised a service
-           that would empower healthcare providers in Rwanda to transform their data into valuable information. Doing so we plan 
-           to increase local evidence production and reduce the need for healthcare consultants and data training.
-          </div>
            </div>
            
       </div>
