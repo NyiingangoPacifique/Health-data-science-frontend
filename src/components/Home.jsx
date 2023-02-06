@@ -18,7 +18,7 @@ const Home = () => {
           {/* <!--Left Col--> */}
           <div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0 sm:mt-16 mt-20">
             <h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-darken">
-              Your are now logeed in you can access our Course and test
+              You will be able to access all lessons and discover the profound research here!
             </h1>
           </div>
         </div>
