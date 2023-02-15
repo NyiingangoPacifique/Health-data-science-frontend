@@ -26,7 +26,7 @@ const NavBar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [color, setColor] = useState("bg-white");
   const [svgSearch, setSvgSearch] = useState(searchMenu);
-  const [textColor, seTextColor] = useState("bg-transparent hover:bg-blue-500 font-semibold hover:text-white py-4 px-8 hover:border-transparent rounded text-black border border-black");
+  const [textColor, seTextColor] = useState("bg-transparent hover:bg-blue-500 font-semibold hover:text-white py-4 px-8 hover:border-transparent rounded-lg text-black border border-black ");
   const [menu, setMenu] = useState(svgMenu);
   const handleClick = () => {
     setIsCollapsed(!isCollapsed);
@@ -63,7 +63,7 @@ const NavBar = () => {
                             toast.warning("Logged out!", { position: "bottom-left" });
                           }}
                         >
-                          <a href="#contact" class="btn block py-2 pr-4 pl-3 text-orange-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Logout</a>
+                          <button className={`${textColor}`}><a href="#contact" class="btn block py-2 pr-4 pl-3 text-orange-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-center">Logout</a></button>
                           
                         </Logout>
                       ) : (
@@ -71,9 +71,7 @@ const NavBar = () => {
                           <button className={`${textColor}`}>
                           <Link to="/login">Login</Link>
                           </button>
-                          <button className={`${textColor}`}>
-                          <Link to="/register">Register</Link>
-                          </button>
+                          
                           
                         </AuthLinks>
                       )}

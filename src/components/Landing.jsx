@@ -1,5 +1,10 @@
 import React from "react";
 import logo from "../img/logo1.png"
+import Hinda from "../img/Hinda.png"
+import Pascal from "../img/pascal.png"
+import Diva from "../img/divine.png"
+import Jado from "../img/iradukunda.png"
+import Laura from "../img/laura.png"
 
 const capacity = "https://gruninfoundation.org/wp-content/uploads/2019/12/GG_Illustration_Pillars_Capacity_1075x715-1.png";
 const Landing = () => {
@@ -31,7 +36,7 @@ const Landing = () => {
               </p>
             </div>
             <div className="" >
-              <button class="bg-sky-400 hover:bg-green-400 text-white font-bold p-5 rounded-lg justify-start m-5">
+              <button class="bg-sky-400 hover:bg-green-400 text-white font-bold p-5 rounded-lg m-5">
                 Take Lessons
               </button>
             </div>
@@ -94,9 +99,10 @@ const Landing = () => {
             </div>
           </div>
         </div>
+     
       </div>
       <div className="bg-black text-white flex-col">
-      <div className="flex">
+      <div className="flex ">
         <div className="ml-12 mt-10 w-1/3">
         <img src={logo} class="h-16 w-32 text-white  " alt="Flowbite Logo" />
         </div>
