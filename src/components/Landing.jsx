@@ -33,7 +33,7 @@ const Landing = () => {
           <div className="w-1/2 text-left ">
             <div className="w-4/5 py-5">
               <p className="text-2xl font-light text-left">
-            Health Data Science and Research Empowers individuals and groups to take ownership of their own development and improve their long-term prospects
+              Africa quantitative science Empowers individuals and groups to take ownership of their own development and improve their long-term prospects
             for success by providing bespoke research trainings. 
               </p>
             </div>
@@ -56,13 +56,13 @@ const Landing = () => {
         </div>
         <div className="flex-col w-6/12 py-12 mb-5 text-left float-right space-y-10 m-auto">
           <div className="font-Sans-serif; text-2xl w-11/12 font-light leading-12 tracking-tight ">
-          At Health Data Science and Research, we have identified that one of the biggest problems with healthcare 
+          Africa quantitative science, we have identified that one of the biggest problems with healthcare 
           services in Rwanda is poor data quality in electronic health records. To help improve the quality of data, 
           we devised a service that would empower healthcare providers in Rwanda to transform their data into valuable information.
            Doing so we plan to increase local evidence production and reduce the need for healthcare consultants and data training.
           </div>
           <div className="font-Sans-serif; text-2xl w-11/12 font-light leading-12 tracking-tight ">
-          At Health Data Science and Research, we have identified that one of the biggest problems with healthcare services 
+          Africa quantitative sciences, we have identified that one of the biggest problems with healthcare services 
           in Rwanda is poor data quality in electronic health records. To help improve the quality of data, we devised a service
            that would empower healthcare providers in Rwanda to transform their data into valuable information. Doing so we plan 
            to increase local evidence production and reduce the need for healthcare consultants and data training.
@@ -141,7 +141,7 @@ const Landing = () => {
        <div className="ml-14 flex w-1/3">
        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M3.99984 4H27.9998C28.3535 4 28.6926 4.14048 28.9426 4.39052C29.1927 4.64057 29.3332 4.97971 29.3332 5.33333V26.6667C29.3332 27.0203 29.1927 27.3594 28.9426 27.6095C28.6926 27.8595 28.3535 28 27.9998 28H3.99984C3.64622 28 3.30708 27.8595 3.05703 27.6095C2.80698 27.3594 2.6665 27.0203 2.6665 26.6667V5.33333C2.6665 4.97971 2.80698 4.64057 3.05703 4.39052C3.30708 4.14048 3.64622 4 3.99984 4ZM26.6665 9.65067L16.0958 19.1173L5.33317 9.62133V25.3333H26.6665V9.65067ZM6.0145 6.66667L16.0812 15.5493L26.0025 6.66667H6.0145Z" fill="#FF5520"></path> </svg>
        <p className="text-white ml-3">
-        hdsr@info
+        aqs@life
        </p>
        </div>
        <div className="w-1/3 flex">
