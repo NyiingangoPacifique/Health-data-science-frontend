@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import styled from "styled-components";
 import { logoutUser } from "../slices/authSlice";
 import { toast } from "react-toastify";
-import logo from "../img/logo1.png"
+import logo from "../img/logo.jpeg"
 
 const svgClose = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="w-6 h-6">
 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -51,7 +51,7 @@ const NavBar = () => {
               <div className="flex justify-between my-8">
                 <div className="flex-shrink-0">
                   <Link to="/">
-                    <img src={logo} class="h-16 w-32 text-white" alt="Flowbite Logo" />
+                    <img src={logo} class="h-20 w-40 text-white" alt="Flowbite Logo" />
                   </Link>
                 </div>
                 <div className="hidden md:block">

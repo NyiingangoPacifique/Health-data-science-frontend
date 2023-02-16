@@ -1,10 +1,12 @@
 import React from "react";
-import logo from "../img/logo1.png"
+import { Link } from "react-router-dom";
+import logo from "../img/logo.jpeg"
 import Hinda from "../img/Hinda.png"
 import Pascal from "../img/pascal.png"
 import Diva from "../img/divine.png"
 import Jado from "../img/iradukunda.png"
 import Laura from "../img/laura.png"
+
 
 const capacity = "https://gruninfoundation.org/wp-content/uploads/2019/12/GG_Illustration_Pillars_Capacity_1075x715-1.png";
 const Landing = () => {
@@ -103,9 +105,11 @@ const Landing = () => {
       </div>
       <div className="bg-black text-white flex-col">
       <div className="flex ">
-        <div className="ml-12 mt-10 w-1/3">
-        <img src={logo} class="h-16 w-32 text-white  " alt="Flowbite Logo" />
-        </div>
+      <div className="flex-shrink-0 m-10 hover:bg-blue">
+                  <Link to="/">
+                    <img src={logo} class="h-20 w-40 text-white" alt="Flowbite Logo" />
+                  </Link>
+                </div>
         <div className="w-1/3 mt-10">
           <li>
             <p>
