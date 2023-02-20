@@ -1,4 +1,5 @@
-import React from "react";
+import React  from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../img/logo.jpeg"
 import Hinda from "../img/Hinda.png"
@@ -38,14 +39,14 @@ const Landing = () => {
               </p>
             </div>
             <div className="" >
-              <button class="bg-sky-400 hover:bg-green-400 text-white font-bold p-5 rounded-lg m-5">
+              <button class="bg-orange-500 hover:bg-blue-900 text-white font-bold p-5 rounded-lg m-5">
                 Take Lessons
               </button>
             </div>
           </div>
         </div> 
       </div>
-      <div className="flex bg-gray-100 py-20">
+      <div className="flex bg-blue-100 py-20">
         <div className="w-1/12 py-24 mb-5 font-Sans-serif font-bold">
           
         </div>
@@ -55,17 +56,18 @@ const Landing = () => {
           </h>
         </div>
         <div className="flex-col w-6/12 py-12 mb-5 text-left float-right space-y-10 m-auto">
-          <div className="font-Sans-serif; text-2xl w-11/12 font-light leading-12 tracking-tight ">
+          <div className="font-Sans-serif text-2xl w-11/12 font-light leading-12 tracking-tight ">
           Africa quantitative science, we have identified that one of the biggest problems with healthcare 
           services in Rwanda is poor data quality in electronic health records. To help improve the quality of data, 
           we devised a service that would empower healthcare providers in Rwanda to transform their data into valuable information.
            Doing so we plan to increase local evidence production and reduce the need for healthcare consultants and data training.
           </div>
           <div className="font-Sans-serif; text-2xl w-11/12 font-light leading-12 tracking-tight ">
-          Africa quantitative sciences, we have identified that one of the biggest problems with healthcare services 
-          in Rwanda is poor data quality in electronic health records. To help improve the quality of data, we devised a service
-           that would empower healthcare providers in Rwanda to transform their data into valuable information. Doing so we plan 
-           to increase local evidence production and reduce the need for healthcare consultants and data training.
+          Unused data can be a missed opportunity for organizations to gain valuable insights and make informed decisions. 
+          To make use of this untapped resource, organizations can take several steps, including assessing the value of the data, 
+          investing in the appropriate infrastructure, implementing data exploration processes, fostering a data-driven culture, 
+          and monitoring and refining the process as needed. Organizations can unlock the value of their unused data, 
+          leading to better decision-making and a competitive advantage in the market.
           </div>
         </div>
       </div>
@@ -95,7 +97,7 @@ const Landing = () => {
               Transform data into actionable insights.
             </p>
             <div>
-              <button class="bg-sky-400 hover:bg-green-400 text-white font-bold p-5 w-1/3 rounded-lg mt-5">
+              <button class="bg-orange-500 hover:bg-blue-900 text-white font-bold p-5 w-1/3 rounded-lg mt-5">
                 Take Lessons
               </button>
             </div>
@@ -103,16 +105,47 @@ const Landing = () => {
         </div>
      
       </div>
+      <div  className="bg-sky-100 w-full">
+      <div>
+       <div className="m-10">
+        <p className="ml-28 font-Sans-serif text-7xl  font-light leading-12 tracking-tight text-left w-2/3">
+        Providing the expertise needed to turn data into a strategic asset 
+        </p>
+        <p className="mt-14 ml-28 text-left w-2/3 font-Sans-serif font-light text-2xl ">
+        Our mission is to help our clients unlock the full potential of their data by providing innovative and effective solutions for data exploration. 
+        We strive to empower businesses and organizations to make data-driven decisions by uncovering insights, trends, and patterns that would otherwise go unnoticed.
+        </p>
+        </div> 
+      </div>
+       <div className="flex w-1/2 mt-14 ml-32 mb-14">
+        <div className="w-1/4">
+        <button className="bg-white hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent rounded-lg text-black border border-black">
+          <Link to="/login">AQS Team</Link>
+        </button>
+       </div>
+       <div className="w-1/4">
+        <button className="bg-white hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent rounded-lg text-black border border-black">
+          <Link to="/login">Experts</Link>
+        </button>
+       </div>
+      </div>
+      </div>
+
+      
+     
+
+
+        
       <div className="bg-black text-white flex-col">
-      <div className="flex ">
-      <div className="flex-shrink-0 m-10 hover:bg-blue">
+      <div className="flex m-14 w-full">
+      <div className="mt-10 ml-10 w-1/3">
                   <Link to="/">
                     <img src={logo} class="h-20 w-40 text-white" alt="Flowbite Logo" />
                   </Link>
                 </div>
-        <div className="w-1/3 mt-10">
+        <div className="w-1/3 mt-10 ml-4">
           <li>
-            <p>
+            <p className="">
              Platform
             </p>
             <button class=" text-white font-bold rounded-lg justify-start mt-5">

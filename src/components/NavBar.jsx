@@ -25,8 +25,8 @@ const NavBar = () => {
   const auth = useSelector((state) => state.auth);
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [color, setColor] = useState("bg-white");
-  const [svgSearch, setSvgSearch] = useState(searchMenu);
-  const [textColor, seTextColor] = useState("bg-transparent hover:bg-blue-500 font-semibold hover:text-white py-4 px-8 hover:border-transparent rounded-lg text-black border border-black ");
+  const [svgSearch, setSvgSearch] = useState(searchMenu); const [textColor, seTextColor] = useState("bg-transparent hover:bg-blue-500 font-semibold hover:text-white py-4 px-8 hover:border-transparent rounded-lg text-black border border-black ");
+ 
   const [menu, setMenu] = useState(svgMenu);
   const handleClick = () => {
     setIsCollapsed(!isCollapsed);
