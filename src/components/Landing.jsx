@@ -14,36 +14,28 @@ const Landing = () => {
   
   return (
     <div>
-      <div className="py-5">
+      <div className="py-5 flex">
         <div className="flex">
-          <div className="w-4/12"></div>
+          <div className="w-1/12"></div>
           <div className="w-8/12 py-12 mb-5 text-left float-right">
             <h1 className="font-Sans-serif; text-8xl w-11/12 font-light leading-12 tracking-tight ml-4">
             Unleashing the power of data for better health
             </h1>
           </div>
         </div>
-        <div className="flex ">
-          <div className="w-1/2">
-            <img
-              className="text-white  m-auto"
-              src={capacity}
-              alt="Workflow"
-            />
-          </div>
-          <div className="w-1/2 text-left ">
-            <div className="w-4/5 py-5">
-              <p className="text-2xl font-light text-left">
-              Africa quantitative science Empowers individuals and groups to take ownership of their own development and improve their long-term prospects
-            for success by providing bespoke research trainings. 
-              </p>
-            </div>
-            <div className="" >
-              <button class="bg-orange-500 hover:bg-blue-900 text-white font-bold p-5 rounded-lg m-5">
-                Take Lessons
-              </button>
-            </div>
-          </div>
+        <div className="flex-col mr-24 font-Sans-serif text-xl ">
+            <a href="#" aria-current="true" class="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8">
+                About Us
+            </a>
+            <a href="#" class="block  px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8 ">
+                Our Approach
+            </a>
+            <a href="#" class="block  px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8 ">
+                Our Services
+            </a>
+            <a href="#" class="block  px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8 ">
+                Resources
+            </a>
         </div> 
       </div>
       <div className="flex bg-blue-100 py-20">
@@ -130,6 +122,8 @@ const Landing = () => {
        </div>
       </div>
       </div>
+  
+
 
       
      
@@ -137,13 +131,13 @@ const Landing = () => {
 
         
       <div className="bg-black text-white flex-col">
-      <div className="flex m-14 w-full">
-      <div className="mt-10 ml-10 w-1/3">
+      <div className="flex m-14">
+      <div className="mt-10 ml-10 mr-72 ">
                   <Link to="/">
                     <img src={logo} class="h-20 w-40 text-white" alt="Flowbite Logo" />
                   </Link>
                 </div>
-        <div className="w-1/3 mt-10 ml-4">
+        <div className=" mt-10 ml-4 mr-72">
           <li>
             <p className="">
              Platform
@@ -156,7 +150,7 @@ const Landing = () => {
             </p>
           </li>
           </div>
-          <div className="w-1/3 mt-10">
+          <div className=" mt-10">
           <li>
             <p>
              About
@@ -170,7 +164,7 @@ const Landing = () => {
           </li>
           </div>
         </div>
-      <div className="flex mt-10 m-auto">
+      <div className="flex mt-10 ml-10">
        <div className="ml-14 flex w-1/3">
        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M3.99984 4H27.9998C28.3535 4 28.6926 4.14048 28.9426 4.39052C29.1927 4.64057 29.3332 4.97971 29.3332 5.33333V26.6667C29.3332 27.0203 29.1927 27.3594 28.9426 27.6095C28.6926 27.8595 28.3535 28 27.9998 28H3.99984C3.64622 28 3.30708 27.8595 3.05703 27.6095C2.80698 27.3594 2.6665 27.0203 2.6665 26.6667V5.33333C2.6665 4.97971 2.80698 4.64057 3.05703 4.39052C3.30708 4.14048 3.64622 4 3.99984 4ZM26.6665 9.65067L16.0958 19.1173L5.33317 9.62133V25.3333H26.6665V9.65067ZM6.0145 6.66667L16.0812 15.5493L26.0025 6.66667H6.0145Z" fill="#FF5520"></path> </svg>
        <p className="text-white ml-3">
