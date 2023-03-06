@@ -3,10 +3,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 
 import Home from "./components/Home";
+import AboutUs from "./components/AboutUs"
 import Landing from "./components/Landing";
 import NavBar from "./components/NavBar";
 import NotFound from "./components/NotFound";
 import Cart from "./components/Cart";
+import Services from "./components/Services";
+import Approach from "./components/Approach";
 
 import "react-toastify/dist/ReactToastify.css";
 import Register from "./components/auth/Register";
@@ -36,6 +39,9 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/not-found" element={<NotFound />} />
             <Route to="/not-found" />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/approach" element={<Approach />} />
           </Routes>
         </div>
       </BrowserRouter>

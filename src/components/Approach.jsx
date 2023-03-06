@@ -1,121 +1,54 @@
-import React  from "react";
-import { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../img/logo.jpeg"
 
-import AboutUs from "./AboutUs";
-import Hinda from "../img/Hinda.png"
-import Pascal from "../img/pascal.png"
-import Diva from "../img/divine.png"
-import Jado from "../img/iradukunda.png"
-import Laura from "../img/laura.png"
+const Approach = () => {
 
-
-const capacity = "https://gruninfoundation.org/wp-content/uploads/2019/12/GG_Illustration_Pillars_Capacity_1075x715-1.png";
-const Landing = () => {
-
+return (
   
-  return (
     <div>
-      <div className="py-5 flex">
-        <div className="flex">
-          <div className="w-1/12"></div>
-          <div className="w-8/12 py-12 mb-5 text-left float-right">
-            <h1 className="font-Sans-serif; text-8xl w-11/12 font-light leading-12 tracking-tight ml-4">
-            Unleashing the power of data for better health
-            </h1>
-          </div>
+     
+     <div className="w-full mt-10 ">
+             <p className="mt-15 mb-10 font-Sans-serif text-2xl font-light leading-12 tracking-tight ">
+                OUR APPROACH
+             </p>
+             <p className="font-Sans-serif text-2xl font-light leading-12 tracking-tight ml-32 mr-32 mb-10">
+             We partner with healthcare facilities to co-create a positive feedback loop that begins with, 
+             we prepare data using international standards, increase use of data and ends with continually improving quality data.
+             By leveraging high-quality data:
+             </p>
+          
         </div>
-        <div className="flex-col mr-24 font-Sans-serif text-xl ">
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8">
-        <Link to="/about">
-        About Us 
-        </Link>  
-        </button>
-       
-            
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8">
-        <Link to="/approach">
-        Our Approach 
-        </Link>  
-        </button>
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8">
-        <Link to="/services">
-        Our Services 
-        </Link>  
-        </button>
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8">
-        <Link to="/login">
-        Resources 
-        </Link>  
-        </button>
-        </div> 
-      </div>
-      <div className="flex bg-blue-100 py-20">
+        <div className="flex  py-10">
         <div className="w-1/12 py-24 mb-5 font-Sans-serif font-bold">
           
         </div>
         <div className="w-4/12 py-12 mb-5 text-left float-right"> 
           <h className="m-auto font-Sans-serif text-7xl w-11/12 font-light leading-12 tracking-tight">
-            Exploring the Data
+           Leveraging high-quality data
           </h>
         </div>
         <div className="flex-col w-6/12 py-12 mb-5 text-left float-right space-y-10 m-auto">
-          <div className="font-Sans-serif text-2xl w-11/12 font-light leading-12 tracking-tight ">
-          Africa quantitative science, we have identified that one of the biggest problems with healthcare 
-          services in Rwanda is poor data quality in electronic health records. To help improve the quality of data, 
-          we devised a service that would empower healthcare providers in Rwanda to transform their data into valuable information.
-           Doing so we plan to increase local evidence production and reduce the need for healthcare consultants and data training.
-          </div>
-          <div className="font-Sans-serif; text-2xl w-11/12 font-light leading-12 tracking-tight ">
-          Unused data can be a missed opportunity for organizations to gain valuable insights and make informed decisions. 
-          To make use of this untapped resource, organizations can take several steps, including assessing the value of the data, 
-          investing in the appropriate infrastructure, implementing data exploration processes, fostering a data-driven culture, 
-          and monitoring and refining the process as needed. Organizations can unlock the value of their unused data, 
-          leading to better decision-making and a competitive advantage in the market.
-          </div>
+          <p className="font-Sans-serif text-2xl w-11/12 font-light leading-12 tracking-tight whitespace-pre-wrap ">
+          1.	We help healthcare facilities harness the power of data to enhance healthcare delivery and inform policy decisions.
+
+
+                Our customized service helps health facilities improve data literacy, generate evidence, streamline data flow, curate data, 
+                and monetize data. We offer training to healthcare facility staff on the entire research process, from generating research
+                questions to writing manuscripts.
+
+
+                In addition to working with healthcare providers on the development of research outputs, we also offer suggestions for
+                improving the efficiency of the facility.
+
+          </p>
+          <p className="font-Sans-serif; text-2xl w-11/12 font-light leading-12 tracking-tight ">
+          2.	Primary data collection can be time-consuming and prone to bias, so we aim to assist governments and other organizations
+                in obtaining reliable data to answer their research questions in a timely and cost-effective manner.
+          </p>
         </div>
       </div>
-      <div className="flex-col py-20">
-        <div className="flex">
-          <div className="w-1/12">
-
-          </div>
-          <div className="w-11/12 font-bold font-Sans-serif text-2xl py-5 text-left ">
-            DATA CURATION
-          </div>
-        </div>
-        <div className="flex m-auto">
-          <div className="w-1/12">
-
-          </div>
-          <div className="w-7/12">
-            <p className="font-Sans-serif text-7xl w-11/12 font-light leading-12 tracking-tight text-left">
-              Transform Data into Meaningful state
-            </p>
-          </div>
-          <div className="w-4/12 text-left float-right">
-            <p className="font-Sans-serif text-1xl w-8/12 font-light leading-12 tracking-tight mr-4 ">
-              Data is trustworthy, accessible, and usable for current and future research by
-              Creating six-sigma system for data quality, 
-              Creating AI/ML tool for data cleaning and curation and
-              Transform data into actionable insights.
-            </p>
-            
-          </div>
-        </div>
-     
-      </div>
       
-      
-  
-
-
-      
-     
-
-
-        
       <div className="bg-black text-white flex-col">
       <div className="flex m-14">
       <div className="mt-10 ml-10 mr-72 ">
@@ -178,8 +111,10 @@ const Landing = () => {
 
       </div>
       </div>
+        
+
     </div>
-  );
+ );
 };
 
-export default Landing;
+export default Approach;

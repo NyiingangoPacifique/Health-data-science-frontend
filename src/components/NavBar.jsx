@@ -67,21 +67,13 @@ const NavBar = () => {
                           
                         </Logout>
                       ) : (
-                        <AuthLinks>
-                          <button className={`${textColor}`}>
-                          <Link to="/login">Login</Link>
-                          </button>
-                          
-                          
-                        </AuthLinks>
+                        
+                         <button className={`${textColor}`}>
+                         <Link to="/login">Login</Link>
+                         </button>
                       )}
-                    <button>
-                      <div dangerouslySetInnerHTML={{ __html: svgSearch }} />
-                    </button>
-                    <button onClick={handleClick}
-                        className={`${color}`}>
-                      <div dangerouslySetInnerHTML={{ __html: menu }} />
-                    </button>
+                    
+                    
         
                   </div>
                 </div>
