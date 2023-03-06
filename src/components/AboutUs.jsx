@@ -146,7 +146,10 @@ const AboutUs = () => {
               <div class="p-8">
              <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Pascal BIRINDABAGABO </div>
                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Scientific Officer</a>
-               <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+               <p class="mt-2 text-slate-500">
+                Pascal currently consults for the African Union Commission as a Senior Public Health
+                 Specialist focusing in developing Domestic Health Financing and has mustered up more than a decade of experience in the health sector.
+               </p>
              </div>
             </div>
           </div>
