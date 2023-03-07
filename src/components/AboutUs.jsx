@@ -31,7 +31,7 @@ const AboutUs = () => {
                 OUR MISSION
              </p>
              <p className="font-Sans-serif text-5xl font-light leading-12 tracking-tight text-left ml-24">
-                Unleashing the power of data for Africa's transformation
+                Empower our clients to harness the power of data by co-creating tools and solutions for evidence-based decisions
              </p>
           </div>
         </div>
@@ -41,7 +41,7 @@ const AboutUs = () => {
                 OUR VISION
              </p>
              <p className="font-Sans-serif text-5xl font-light leading-12 tracking-tight text-left ml-24">
-             To be the leading run-to of data-driven cutting-edge solutions  for  decisions across the African continent
+             An Africa uplifted by data-driven solutions
 
              </p>
           </div>
@@ -50,7 +50,7 @@ const AboutUs = () => {
       </div>
       <div>
 
-          <div className="p-5 ml-24 m-auto" >
+          <div className="p-5  m-auto" >
                  <p className="font-light font-Sans-serif text-2xl py-5 text-center">
                   OUR TEAM
                  </p>
@@ -87,7 +87,7 @@ const AboutUs = () => {
             />
           </div>
             <div class="p-8">
-                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">HINDA Luton</div>
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">HINDA Ruton</div>
                 <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Founder and CEO</a>
                     <p class="mt-2 text-slate-500">
                      Hinda has over two decades of experience 
@@ -97,7 +97,48 @@ const AboutUs = () => {
             </div>
           </div>
           </div>
-            <div>
+          <div>
+                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                  <div class="md:flex">
+                   <div class="md:shrink-0">
+                   <img
+              className="text-white  m-auto object-full h-40 w-40"
+              src={Pascal}
+              alt="Workflow"
+            />
+                 </div>
+              <div class="p-8">
+             <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Pascal BIRINDABAGABO </div>
+               <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Scientific Officer</a>
+               <p class="mt-2 text-slate-500">
+                Pascal currently consults for the African Union Commission as a Senior Public Health
+                Specialist focusing in developing Domestic Health Financing and has mustered up more than a decade of experience in the health sector.
+               </p>
+             </div>
+            </div>
+          </div>
+        </div>
+            
+        <div>
+            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                <div class="md:flex">
+                   <div class="md:shrink-0">
+                   <img
+              className="text-white  m-auto object-full h-48 w-35 ml-5"
+              src={Jado}
+              alt="Workflow"
+            />
+                </div>
+               <div class="p-8">
+                  <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">IRANKUNDA Jean de Dieu</div>
+                     <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Operations Officer </a>
+                     <p class="mt-2 text-slate-500">Jean de Dieu is a trained pharmacist with over a decade of experience in health services and pharmaceutical practices and research.</p>
+                 </div>
+             </div>
+            </div>
+        </div>
+            
+        <div>
           <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
             <div class="md:flex">
               <div class="md:shrink-0">
@@ -115,45 +156,6 @@ const AboutUs = () => {
              </div>
             </div>
            </div>
-        <div>
-            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-                <div class="md:flex">
-                   <div class="md:shrink-0">
-                   <img
-              className="text-white  m-auto object-full h-48 w-35 ml-5"
-              src={Jado}
-              alt="Workflow"
-            />
-                </div>
-               <div class="p-8">
-                  <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">IRANKUNDA Jean de Dieu</div>
-                     <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Operations Officer </a>
-                     <p class="mt-2 text-slate-500">Jean de Dieu is a trained pharmacist with over a decade of experience in health services and pharmaceuticals and research.</p>
-                 </div>
-             </div>
-            </div>
-        </div>
-             <div>
-                <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-                  <div class="md:flex">
-                   <div class="md:shrink-0">
-                   <img
-              className="text-white  m-auto object-full h-40 w-40"
-              src={Pascal}
-              alt="Workflow"
-            />
-                 </div>
-              <div class="p-8">
-             <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Pascal BIRINDABAGABO </div>
-               <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Scientific Officer</a>
-               <p class="mt-2 text-slate-500">
-                Pascal currently consults for the African Union Commission as a Senior Public Health
-                 Specialist focusing in developing Domestic Health Financing and has mustered up more than a decade of experience in the health sector.
-               </p>
-             </div>
-            </div>
-          </div>
-        </div>
         <div>
         <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
       <div class="md:flex">
@@ -191,8 +193,8 @@ const AboutUs = () => {
                   </Link>
                 </div>
         <div className=" mt-10 ml-4 mr-72">
-          <li>
-            <p className="">
+        <li className="list-none">
+            <p className="font-Sans-serif text-2xl font-light leading-12 tracking-tight">
              Platform
             </p>
             <button class=" text-white font-bold rounded-lg justify-start mt-5">
@@ -204,8 +206,8 @@ const AboutUs = () => {
           </li>
           </div>
           <div className=" mt-10">
-          <li>
-            <p>
+          <li className="list-none">
+            <p className="font-Sans-serif text-2xl font-light leading-12 tracking-tight">
              About
             </p>
             <p className="mt-5 font-bold">

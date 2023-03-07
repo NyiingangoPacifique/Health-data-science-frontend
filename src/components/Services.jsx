@@ -8,7 +8,7 @@ return (
   
     <div>
          
-        <div className="w-full mt-10 ">
+        <div className="w-full mt-20 ">
              <p className="mt-15 mb-10 font-Sans-serif text-2xl font-light leading-12 tracking-tight ">
                 OUR SERVICES
              </p>
@@ -17,10 +17,10 @@ return (
              </p>
           <div className=" p-5 w-1/2 ml-auto bg-blue-100">
             
-             <p className="font-light font-Sans-serif text-2xl py-5 text-left">
+             <p className=" font-Sans-serif text-2xl py-5 text-left">
              Increasing data literacy and research outputs 
              </p>
-             <ul class="list-decimal text-left ml-4 font-Sans-serif">
+             <ul class="list-decimal text-left ml-4 font-Sans-serif text-2xl font-light">
                <li>Provide capacity building in statistics and research</li>
                <li>Provide capacity building in research writing </li>
                <li>Provide statistical support </li>
@@ -29,10 +29,10 @@ return (
         </div>
         <div className="p-5 w-1/2">
           <div className="">
-             <p className="font-light  font-Sans-serif text-2xl py-5 text-left ml-24  ">
+             <p className=" font-Sans-serif text-2xl py-5 text-left ml-24  ">
              Design and implement a six-sigma system to improve data infrastructure
              </p>
-             <ul class="list-decimal text-left ml-28 font-Sans-serif">
+             <ul class="list-decimal text-left ml-28 font-Sans-serif text-2xl font-light">
                <li>Mapping of existing data ecosystem</li>
                <li>Support in creation of metadata (s)</li>
                <li>Designing a six-sigma system to improve data quality  </li>
@@ -42,10 +42,10 @@ return (
         </div>
         <div className="w-full mt-10">
           <div className=" p-5 w-1/2 ml-auto bg-blue-100">
-             <p className="font-light font-Sans-serif text-2xl py-5 text-left">
+             <p className=" font-Sans-serif text-2xl py-5 text-left">
              Design automated data curation AI algorithm
              </p>
-             <ul class="list-decimal text-left ml-4 w-10/12">
+             <ul class="list-decimal text-left ml-4 w-10/12 text-2xl font-light">
                <li>Working with healthcare facility to design automated data cleaning script</li>
                <li>Creating automated script to transform existing data into research-grade format </li>
                
@@ -61,8 +61,8 @@ return (
                   </Link>
                 </div>
         <div className=" mt-10 ml-4 mr-72">
-          <li>
-            <p className="">
+        <li className="list-none">
+            <p className="font-Sans-serif text-2xl font-light leading-12 tracking-tight">
              Platform
             </p>
             <button class=" text-white font-bold rounded-lg justify-start mt-5">
@@ -74,8 +74,8 @@ return (
           </li>
           </div>
           <div className=" mt-10">
-          <li>
-            <p>
+          <li className="list-none">
+            <p className="font-Sans-serif text-2xl font-light leading-12 tracking-tight">
              About
             </p>
             <p className="mt-5 font-bold">

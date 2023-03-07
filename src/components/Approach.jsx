@@ -8,45 +8,50 @@ return (
   
     <div>
      
-     <div className="w-full mt-10 ">
-             <p className="mt-15 mb-10 font-Sans-serif text-2xl font-light leading-12 tracking-tight ">
+     <div className="w-full mt-20 ">
+             <p className="mt-15 mb-20 font-Sans-serif text-2xl font-light leading-12 tracking-tight ">
                 OUR APPROACH
              </p>
-             <p className="font-Sans-serif text-2xl font-light leading-12 tracking-tight ml-32 mr-32 mb-10">
+             <p className="font-Sans-serif font-light text-5xl w-7/12 leading-12 tracking-tight text-left ml-32 mb-10">
              We partner with healthcare facilities to co-create a positive feedback loop that begins with, 
              we prepare data using international standards, increase use of data and ends with continually improving quality data.
-             By leveraging high-quality data:
+             
              </p>
           
         </div>
         <div className="flex  py-10">
-        <div className="w-1/12 py-24 mb-5 font-Sans-serif font-bold">
-          
-        </div>
-        <div className="w-4/12 py-12 mb-5 text-left float-right"> 
+        
+        <div className="w-3/12 py-12 mb-5 text-left float-right ml-32"> 
           <h className="m-auto font-Sans-serif text-7xl w-11/12 font-light leading-12 tracking-tight">
            Leveraging high-quality data
           </h>
         </div>
-        <div className="flex-col w-6/12 py-12 mb-5 text-left float-right space-y-10 m-auto">
-          <p className="font-Sans-serif text-2xl w-11/12 font-light leading-12 tracking-tight whitespace-pre-wrap ">
-          1.	We help healthcare facilities harness the power of data to enhance healthcare delivery and inform policy decisions.
+        <div className="w-8/12">
+        <ul className=" w-9/12 list-decimal py-12 mb-5 font-light text-2xl text-left  space-y-10 m-auto">
+               <li className="space-y-4">	
+                 <p className="mb-5" >
+                 We help healthcare facilities harness the power of data to enhance healthcare delivery and inform policy decisions.
+                 </p>
 
 
-                Our customized service helps health facilities improve data literacy, generate evidence, streamline data flow, curate data, 
-                and monetize data. We offer training to healthcare facility staff on the entire research process, from generating research
-                questions to writing manuscripts.
+                  Our customized service helps health facilities improve data literacy, generate evidence, streamline data flow, curate data, 
+                  and monetize data. We offer training to healthcare facility staff on the entire research process, from generating research
+                  questions to writing manuscripts.
 
 
-                In addition to working with healthcare providers on the development of research outputs, we also offer suggestions for
-                improving the efficiency of the facility.
-
-          </p>
-          <p className="font-Sans-serif; text-2xl w-11/12 font-light leading-12 tracking-tight ">
-          2.	Primary data collection can be time-consuming and prone to bias, so we aim to assist governments and other organizations
-                in obtaining reliable data to answer their research questions in a timely and cost-effective manner.
-          </p>
+                 <p>
+                 In addition to working with healthcare providers on the development of research outputs, we also offer suggestions for
+                 improving the efficiency of the facility.
+                 </p>
+              </li>
+               <li className=""> 
+               Primary data collection can be time-consuming and prone to bias, so we aim to assist governments and other organizations
+               in obtaining reliable data to answer their research questions in a timely and cost-effective manner.
+               </li>
+               
+            </ul>
         </div>
+        
       </div>
       
       <div className="bg-black text-white flex-col">
@@ -57,8 +62,8 @@ return (
                   </Link>
                 </div>
         <div className=" mt-10 ml-4 mr-72">
-          <li>
-            <p className="">
+        <li className="list-none">
+            <p className="font-Sans-serif text-2xl font-light leading-12 tracking-tight">
              Platform
             </p>
             <button class=" text-white font-bold rounded-lg justify-start mt-5">
@@ -70,8 +75,8 @@ return (
           </li>
           </div>
           <div className=" mt-10">
-          <li>
-            <p>
+          <li className="list-none">
+            <p className="font-Sans-serif text-2xl font-light leading-12 tracking-tight">
              About
             </p>
             <p className="mt-5 font-bold">
