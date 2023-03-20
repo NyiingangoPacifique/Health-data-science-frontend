@@ -9,16 +9,21 @@ import Pascal from "../img/pascal.png"
 import Diva from "../img/divine.png"
 import Jado from "../img/iradukunda.png"
 import Laura from "../img/laura.png"
+import Vision from "../img/vision.jpg"
+import Mission from "../img/mission.JPG"
 
 
 
 
 const capacity = "https://gruninfoundation.org/wp-content/uploads/2019/12/GG_Illustration_Pillars_Capacity_1075x715-1.png";
 const Landing = () => {
+  
   const [activeButton, setActiveButton] = useState('button1');
 
   const handleButtonClick = (buttonId) => {
     setActiveButton(buttonId);}
+    const YoutubeButton = () => {}
+    
 
   
   return (
@@ -27,30 +32,37 @@ const Landing = () => {
         <div className="flex">
           <div className="w-1/12"></div>
           <div className="w-8/12 py-12 mb-5 text-left float-right">
-            <h1 className="font-Sans-serif; text-8xl w-11/12 font-light leading-12 tracking-tight ml-4">
-            Unleashing the power of data for better health
-            </h1>
+            <div>
+              <h1 className="font-Sans-serif; text-7xl w-11/12 font-light leading-12 tracking-tight ml-4  break-words">
+                Unleashing the power of data for better health
+              </h1>
+            </div>
+            <div className="mt-14 ml-60">
+              <a href="https://www.youtube.com/watch?v=6X2RNnje8Fg" target="_blank" rel="noopener noreferrer" className="active bg-white border border-black hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent text-white border mt-20' : 'bg-white hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent text-black border mt-20">
+                  Watch Video
+              </a>
+              </div>
           </div>
         </div>
-        <div className="flex-col mr-24 font-Sans-serif text-xl ">
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8">
+        <div className="flex-col mr-14 font-Sans-serif text-xl ">
+        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-14">
         <Link to="/about">
         About Us 
         </Link>  
         </button>
        
             
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8">
+        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5">
         <Link to="/approach">
         Our Approach 
         </Link>  
         </button>
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8">
+        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5">
         <Link to="/services">
         Our Services 
         </Link>  
         </button>
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-8">
+        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5">
         <Link to="/login">
         Resources 
         </Link>  
@@ -62,7 +74,7 @@ const Landing = () => {
           
         </div>
         <div className="w-4/12 py-12 mb-5 text-left float-right"> 
-          <h className="m-auto font-Sans-serif text-7xl w-11/12 font-light leading-12 tracking-tight">
+          <h className="m-auto font-Sans-serif text-7xl w-11/12 font-light leading-12 tracking-tight  break-words">
             Exploring the Data
           </h>
         </div>
@@ -84,23 +96,32 @@ const Landing = () => {
       </div>
       
         <div className=" py-12 mb-5 text-center">
-        <p className="font-Sans-serif; text-6xl w-11/12 font-light leading-12 tracking-tight ml-28 mt-10">
+        <p className="font-Sans-serif; text-6xl w-11/12 font-light leading-12 tracking-tight m-auto mt-10">
         Your Data, Your Power!
         </p>
       </div>
       <div className="">
-        <div className="w-full">
-          <div className="bg-blue-100 p-5 w-1/2 ml-auto">
+        <div className="w-full flex">
+          <div className="w-1/2">
+          
+            <img
+              className="text-white  m-auto h-72 ml-32 mt-14 w-10/12"
+              src={Mission}
+              alt="Workflow"
+            />
+          
+          </div>
+          <div className=" p-5 w-1/2 ml-auto">
              <p className="font-light font-Sans-serif text-2xl py-5 text-left ml-24 ">
                 OUR MISSION
              </p>
-             <p className="font-Sans-serif text-5xl font-light leading-12 tracking-tight text-left ml-24">
+             <p className="font-Sans-serif text-5xl font-light leading-12 tracking-tight text-left ml-24 md:max-xl:flex">
              Empower our clients to harness the power of data by co-creating tools and solutions for evidence-based decisions
              </p>
           </div>
         </div>
-        <div className="p-5 w-1/2">
-          <div className="">
+        <div className="p-5 w-full flex">
+          <div className="w-1/2">
              <p className="font-light  font-Sans-serif text-2xl py-5 text-left ml-24 ">
                 OUR VISION
              </p>
@@ -109,7 +130,14 @@ const Landing = () => {
 
              </p>
           </div>
-          <div className="w-3/12"></div>
+          <div className="w-1/2">
+          <img
+              className="text-white  m-auto w-10/12 mt-10 h-72"
+              src={Vision}
+              alt="Workflow"
+            />
+
+          </div>
         </div>
       </div>
       
@@ -127,19 +155,19 @@ const Landing = () => {
         </div>
           
         </div>
-        <div className="flex  py-10">
+        <div className="flex  py-10 ">
         
-        <div className="flex  py-10">
+        <div className="flex  py-10 bg-blue-100">
         
         <div className="w-3/12 py-12 mb-5 text-left float-right ml-32"> 
-          <h className="m-auto font-Sans-serif text-7xl w-11/12 font-light leading-12 tracking-tight">
+          <h className="m-auto font-Sans-serif text-7xl w-11/12 font-light leading-12 tracking-tight break-words">
            Leveraging high-quality data
           </h>
         </div>
-        <div className="w-8/12">
+        <div className="w-8/12 ">
         <ul className=" w-9/12 list-decimal py-12 mb-5 font-light text-2xl text-left  space-y-10 m-auto">
                <li className="space-y-4">	
-                 <p className="mb-5" >
+                 <p className="mb-5 mt-10 " >
                  We help healthcare facilities harness the power of data to enhance healthcare delivery and inform policy decisions.
                  </p>
 
@@ -220,12 +248,12 @@ const Landing = () => {
         <div className="flex m-auto">
           
           <div className="w-7/12">
-            <p className="font-Sans-serif text-7xl w-11/12 font-light leading-12 tracking-tight text-left ml-24">
-            Principles, beliefs, guidance.
+            <p className="font-Sans-serif text-7xl w-11/12 font-light leading-12 tracking-tight text-left ml-auto break-words">
+            Principles, beliefs and guidance.
             </p>
           </div>
           <div className="w-5/12 text-left float-right">
-          <ul class="list-disc text-left w-10/12 font-Sans-serif font-light">
+          <ul class="list-disc text-left w-10/12 font-Sans-serif font-light ml-8  break-words">
                <li> Obsessed with our customer satisfaction</li>
                <li> Speed and qaulity in our delivery</li>
                <li> Constantly learning and innonating together</li>
@@ -308,7 +336,7 @@ const Landing = () => {
         </div>
             
         <div>
-            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl h-72">
                 <div class="md:flex">
                    <div class="md:shrink-0">
                    <img
@@ -318,7 +346,7 @@ const Landing = () => {
             />
                 </div>
                <div class="p-8">
-                  <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">IRANKUNDA Jean de Dieu</div>
+                  <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">IRADUKUNDA Jean de Dieu</div>
                      <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Operations Officer </a>
                      <p class="mt-2 text-slate-500">Jean de Dieu is a trained pharmacist with over a decade of experience in health services and pharmaceutical practices and research.</p>
                  </div>
@@ -337,9 +365,9 @@ const Landing = () => {
             />
              </div>
               <div class="p-8">
-                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">RUSA Divine</div>
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">UMUTESI RUSA Divine</div>
                   <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Medical officer</a>
-                  <p class="mt-2 text-slate-500">Dr. Umutesi Rusa Divine is a general practitioner in the Kibungo Referral Hospital /Kibagabaga DH with an MBBS in medicine and surgery from the University of Rwanda.</p>
+                  <p class="mt-2 text-slate-500">Dr Divine is a medical doctor at Kibagabaga level 2 teaching hospital specifically in the internal medicine department and an MSc candidate in Epidemiology. She has an avid interest in research with the aim of improving patients' outcome and contributing to a healthier Rwanda.</p>
                </div>
              </div>
             </div>
@@ -369,7 +397,7 @@ const Landing = () => {
           </div>}
        {activeButton === 'Experts' &&
         <div className="font-Sans-serif text-3xl font-light leading-12 tracking-tight text-center mt-10" >
-        We are still looking for Partnerships and Experts 
+        We have partnerships at local and international level.
         </div>}
        </div>
         
@@ -381,30 +409,19 @@ const Landing = () => {
                   </Link>
                 </div>
         <div className=" mt-10 ml-4 mr-72">
-        <li className="list-none">
+        
             <p className="font-Sans-serif text-2xl font-light leading-12 tracking-tight">
              Platform
             </p>
-            <button class=" text-white font-bold rounded-lg justify-start mt-5">
-                Take Lessons
-              </button>
-            <p className="font-bold">
-              Results
-            </p>
-          </li>
+            
           </div>
-          <div className=" mt-10">
-          <li className="list-none">
+          <div className=" mt-10 ml-20">
+          
             <p className="font-Sans-serif text-2xl font-light leading-12 tracking-tight">
-             About
+             About Us
             </p>
-            <p className="mt-5 font-bold">
-            About Us
-            </p>
-            <p className="font-bold">
-            Contact Us
-            </p>
-          </li>
+            
+          
           </div>
         </div>
       <div className="flex mt-10 ml-10">
