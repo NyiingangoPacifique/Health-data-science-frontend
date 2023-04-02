@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import styled from "styled-components";
 import { logoutUser } from "../slices/authSlice";
 import { toast } from "react-toastify";
-import logo from "../img/logo.jpeg"
+import logo from "../img/logo2.jpg"
 
 const svgClose = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="w-6 h-6">
 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -25,7 +25,7 @@ const NavBar = () => {
   const auth = useSelector((state) => state.auth);
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [color, setColor] = useState("bg-white");
-  const [svgSearch, setSvgSearch] = useState(searchMenu); const [textColor, seTextColor] = useState("bg-transparent hover:bg-blue-500 font-semibold hover:text-white py-4 px-8 hover:border-transparent rounded-lg text-black border border-black ");
+  const [svgSearch, setSvgSearch] = useState(searchMenu); const [textColor, seTextColor] = useState("bg-transparent hover:bg-blue-500 font-semibold hover:text-white py-4 px-8 hover:border-transparent rounded-lg text-black border border-black m-auto ");
  
   const [menu, setMenu] = useState(svgMenu);
   const handleClick = () => {

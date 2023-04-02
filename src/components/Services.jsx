@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../img/logo.jpeg"
+import logo from "../img/logo2.jpg"
 
 const Services = () => {
 
@@ -8,19 +8,19 @@ return (
   
     <div>
          
-        <div className="w-full mt-20 ">
+         <div className="w-full mt-10 ">
              <p className="mt-15 mb-10 font-Sans-serif text-2xl font-light leading-12 tracking-tight ">
                 OUR SERVICES
              </p>
-             <p className="font-Sans-serif text-5xl font-light leading-12 tracking-tight ml-32 mr-32 mb-10">
+             <p className="font-Sans-serif text-5xl font-light leading-12 tracking-tight m-auto w-8/12 mb-10">
              Providing the expertise needed to turn data into a strategic asset
              </p>
           <div className=" p-5 w-1/2 ml-auto bg-blue-100">
             
-             <p className=" font-Sans-serif text-2xl py-5 text-left">
+             <p className=" font-Sans-serif text-2xl py-5 text-left m-auto w-9/12">
              Increasing data literacy and research outputs 
              </p>
-             <ul class="list-decimal text-left ml-4 font-Sans-serif text-2xl font-light">
+             <ul class="list-decimal text-left m-auto w-9/12 font-Sans-serif text-2xl font-light">
                <li>Provide capacity building in statistics and research</li>
                <li>Provide capacity building in research writing </li>
                <li>Provide statistical support </li>
@@ -29,10 +29,10 @@ return (
         </div>
         <div className="p-5 w-1/2">
           <div className="">
-             <p className=" font-Sans-serif text-2xl py-5 text-left ml-24  ">
+             <p className="  font-Sans-serif text-2xl py-5 text-left m-auto w-9/12  ">
              Design and implement a six-sigma system to improve data infrastructure
              </p>
-             <ul class="list-decimal text-left ml-28 font-Sans-serif text-2xl font-light">
+             <ul class="w-9/12 list-decimal text-left m-auto font-Sans-serif text-2xl font-light">
                <li>Mapping of existing data ecosystem</li>
                <li>Support in creation of metadata (s)</li>
                <li>Designing a six-sigma system to improve data quality  </li>
@@ -42,10 +42,10 @@ return (
         </div>
         <div className="w-full mt-10">
           <div className=" p-5 w-1/2 ml-auto bg-blue-100">
-             <p className=" font-Sans-serif text-2xl py-5 text-left">
+             <p className=" font-Sans-serif text-2xl py-5 m-auto w-9/12 text-left">
              Design automated data curation AI algorithm
              </p>
-             <ul class="list-decimal text-left ml-4 w-10/12 text-2xl font-light">
+             <ul class="list-decimal text-left m-auto w-9/12 text-2xl font-light">
                <li>Working with healthcare facility to design automated data cleaning script</li>
                <li>Creating automated script to transform existing data into research-grade format </li>
                

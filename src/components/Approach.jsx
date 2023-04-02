@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../img/logo.jpeg"
+import logo from "../img/logo2.jpg"
 
 const Approach = () => {
 
