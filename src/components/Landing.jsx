@@ -289,7 +289,7 @@ const Landing = () => {
             
           </div>
         {activeButton === 'Team' && <div>
-        <div class="grid grid-cols-2 gap-8 ml-32 mr-32 mt-10 ">
+        <div class="w-10/12 m-auto grid grid-cols-2 gap-8 mt-10 ">
         <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
             <div class="md:flex">
                <div class="md:shrink-0">
@@ -333,7 +333,7 @@ const Landing = () => {
         </div>
             
         <div>
-            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl h-72">
+            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl ">
                 <div class="md:flex">
                    <div class="md:shrink-0">
                    <img
@@ -364,7 +364,7 @@ const Landing = () => {
               <div class="p-8">
                 <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">UMUTESI RUSA Divine</div>
                   <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Medical officer</a>
-                  <p class="mt-2 text-slate-500">Dr Divine is a medical doctor at Kibagabaga level 2 teaching hospital specifically in the internal medicine department and an MSc candidate in Epidemiology. She has an avid interest in research with the aim of improving patients' outcome and contributing to a healthier Rwanda.</p>
+                  <p class="mt-2 text-slate-500">Dr Divine is a medical doctor at Kibagabaga level 2 teaching hospital specifically in the internal medicine department and an MSc candidate in Epidemiology. </p>
                </div>
              </div>
             </div>
