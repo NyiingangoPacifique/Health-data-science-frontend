@@ -34,7 +34,7 @@ const Landing = () => {
           
           <div className="w-8/12 py-12 mb-5 text-left float-right">
             <div>
-              <h1 className="font-Sans-serif; text-7xl w-10/12 font-light leading-12 tracking-tight m-auto break-words">
+              <h1 className="font-Sans-serif; text-5xl w-10/12 font-light leading-12 tracking-tight m-auto break-words">
                 Unleashing the power of data for Africa's transformation
               </h1>
             </div>
