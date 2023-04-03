@@ -32,13 +32,13 @@ const Landing = () => {
       <div className="py-5 flex">
         <div className="flex">
           
-          <div className="w-9/12 py-12 mb-5 text-left float-right">
+          <div className="w-10/12 py-12 mb-5 text-left float-right">
             <div>
               <h1 className="font-Sans-serif; text-6xl w-10/12 font-light leading-12 tracking-tight m-auto break-words">
                 Unleashing the power of data for Africa's transformation
               </h1>
             </div>
-            <div className="mt-20 m-auto w-10/12">
+            <div className="mt-14 m-auto w-10/12">
               <a href="https://www.youtube.com/watch?v=6X2RNnje8Fg" target="_blank" rel="noopener noreferrer" className="active bg-white border border-black hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent text-white border mt-20' : 'bg-white hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent text-black border mt-20">
                   Watch Video
               </a>
@@ -79,17 +79,33 @@ const Landing = () => {
         </div>
         <div className="flex-col w-7/12 py-12 mb-5 text-left float-right space-y-10 m-auto">
           <div className="font-Sans-serif text-2xl w-10/12 font-light leading-12 tracking-tight ">
-          Africa quantitative science, we have identified that one of the biggest problems with healthcare 
-          services in Rwanda is poor data quality in electronic health records. To help improve the quality of data, 
-          we devised a service that would empower healthcare providers in Rwanda to transform their data into valuable information.
-           Doing so we plan to increase local evidence production and reduce the need for healthcare consultants and data training.
+          AQS is a Rwandan-based startup that is passionate about unleashing the power of data.
+           We specialize in providing customized solutions that enable decision-makers across industries to turn complex data into actionable insights.
+          </div>
+          <div className="font-Sans-serif text-2xl w-10/12 font-light leading-12 tracking-tight ">
+          Our co-creation process is at the core of everything we do. We believe in working collaboratively with our clients to understand their unique needs and goals, 
+          providing tailored solutions that meet their specific requirements.
+          </div>
+          <div className="font-Sans-serif text-2xl w-10/12 font-light leading-12 tracking-tight ">
+          Our team of experts includes data scientists, analysts, and business strategists who have extensive experience in analyzing and interpreting complex data.
+           We use state-of-the-art technology and advanced analytics tools to transform messy and unstructured data into powerful insights that drive better decision-making and improve business outcomes.
+          </div>
+          <div className="font-Sans-serif text-2xl w-10/12 font-light leading-12 tracking-tight ">
+          At AQS, we are committed to empowering decision-makers in Africa to harness the power of their data. We believe that data-driven insights can drive innovation,
+           improve efficiency, and enable growth across industries.
+          </div>
+          <div className="font-Sans-serif text-2xl w-10/12 font-light leading-12 tracking-tight ">
+           
+             Our services include capacity building, data curation, evidence generation, and monitoring, evaluation, accountability, and learning. We work with clients across a range of industries,
+             including healthcare, education, and agriculture.
+          </div>
+          <div className="font-Sans-serif text-2xl w-10/12 font-light leading-12 tracking-tight ">
+          In addition to our services, we are also committed to making a positive impact on our community.
+           We partner with local organizations to provide free analytics services and support educational initiatives that empower the next generation of leaders.
+
           </div>
           <div className="font-Sans-serif; text-2xl w-10/12 font-light leading-12 tracking-tight ">
-          Unused data can be a missed opportunity for organizations to gain valuable insights and make informed decisions. 
-          To make use of this untapped resource, organizations can take several steps, including assessing the value of the data, 
-          investing in the appropriate infrastructure, implementing data exploration processes, fostering a data-driven culture, 
-          and monitoring and refining the process as needed. Organizations can unlock the value of their unused data, 
-          leading to better decision-making and a competitive advantage in the market.
+          At AQS, we are dedicated to constantly learning and innovating, striving to deliver impactful solutions that drive success for our clients and contribute to the overall development of Africa.
           </div>
         </div>
       </div>
