@@ -32,13 +32,13 @@ const Landing = () => {
       <div className="py-5 flex">
         <div className="flex">
           
-          <div className="w-8/12 py-12 mb-5 text-left float-right">
+          <div className="w-9/12 py-12 mb-5 text-left float-right">
             <div>
-              <h1 className="font-Sans-serif; text-5xl w-10/12 font-light leading-12 tracking-tight m-auto break-words">
+              <h1 className="font-Sans-serif; text-6xl w-10/12 font-light leading-12 tracking-tight m-auto break-words">
                 Unleashing the power of data for Africa's transformation
               </h1>
             </div>
-            <div className="mt-14 m-auto w-10/12">
+            <div className="mt-20 m-auto w-10/12">
               <a href="https://www.youtube.com/watch?v=6X2RNnje8Fg" target="_blank" rel="noopener noreferrer" className="active bg-white border border-black hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent text-white border mt-20' : 'bg-white hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent text-black border mt-20">
                   Watch Video
               </a>
