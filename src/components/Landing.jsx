@@ -2,6 +2,7 @@ import React  from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../img/logo2.jpg"
+import backgroundImage from "../img/logo2.jpg"
 
 import AboutUs from "./AboutUs";
 import Hinda from "../img/Hinda.png"
@@ -29,48 +30,60 @@ const Landing = () => {
   
   return (
     <div>
-      <div className="py-5 flex">
-        <div className="flex">
+      <div style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover', 
+        height: '100vh'
           
-          <div className="w-10/12 py-12 mb-5 text-left float-right">
-            <div>
-              <h1 className="font-Sans-serif; text-6xl w-10/12 font-light leading-12 tracking-tight m-auto break-words">
-                Unleashing the power of data for Africa's transformation
-              </h1>
-            </div>
-            <div className="mt-14 m-auto w-10/12">
-              <a href="https://www.youtube.com/watch?v=6X2RNnje8Fg" target="_blank" rel="noopener noreferrer" className="active bg-white border border-black hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent text-white border mt-20' : 'bg-white hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent text-black border mt-20">
-                  Watch Video
-              </a>
-              </div>
-          </div>
-        </div>
-        <div className="flex-col mr-14 font-Sans-serif text-xl ">
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-14">
-        <Link to="/about">
-        About Us 
-        </Link>  
-        </button>
-       
+          
+          }}>
+        {
+          <div className="py-5 flex">
+          <div className="flex">
             
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5">
-        <Link to="/approach">
-        Our Approach 
-        </Link>  
-        </button>
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5">
-        <Link to="/services">
-        Our Services 
-        </Link>  
-        </button>
-        <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5">
-        <Link to="/login">
-        Resources 
-        </Link>  
-        </button>
-        </div> 
+            <div className="w-10/12 py-12 mb-5 text-left float-right">
+              <div>
+                <h1 className="font-Sans-serif text-6xl w-10/12 font-light leading-12 tracking-tight m-auto break-words mt-32 font-bold">
+                  Unleashing the power of data for Africa's transformation
+                </h1>
+              </div>
+              <div className="mt-14 m-auto w-10/12">
+                <a href="https://www.youtube.com/watch?v=6X2RNnje8Fg" target="_blank" rel="noopener noreferrer" className="active bg-white border border-black hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent text-white border mt-20' : 'bg-white hover:bg-blue-900 font-semibold hover:text-white py-4 px-8 hover:border-transparent text-black border mt-20">
+                    Watch Video
+                </a>
+                </div>
+            </div>
+          </div>
+          <div className="flex-col mr-14 font-Sans-serif text-xl ">
+          <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-32 font-bold">
+          <Link to="/about">
+          About Us 
+          </Link>  
+          </button>
+         
+              
+          <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5 font-bold">
+          <Link to="/approach">
+          Our Approach 
+          </Link>  
+          </button>
+          <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5 font-bold">
+          <Link to="/services">
+          Our Services 
+          </Link>  
+          </button>
+          <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5 font-bold">
+          <Link to="/login">
+          Resources 
+          </Link>  
+          </button>
+          </div> 
+        </div>
+        }
       </div>
-      <div className="flex bg-blue-100 py-20 m-auto">
+      
+      <div className="flex bg-blue-100 py-10 m-auto">
         <div className="w-1/12"></div>
         <div className="py-12 mb-5 text-left float-right w-3/12"> 
           <h className="w-9/12 font-Sans-serif text-7xl font-light leading-12 tracking-tight  break-words">
