@@ -30,12 +30,20 @@ const Landing = () => {
   
   return (
     <div>
-      <div style={{
+      <div
+       
+      style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover', 
-        height: '100vh'
-          
+        height: '100vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundOpacity: '0.2',
+        
+       
+
           
           }}>
         {
@@ -44,7 +52,7 @@ const Landing = () => {
             
             <div className="w-10/12 py-12 mb-5 text-left float-right">
               <div>
-                <h1 className="font-Sans-serif text-6xl w-10/12 font-light leading-12 tracking-tight m-auto break-words mt-32 font-bold">
+                <h1 className="font-Sans-serif text-6xl w-10/12 font-light leading-12 tracking-tight m-auto break-words font-semibold">
                   Unleashing the power of data for Africa's transformation
                 </h1>
               </div>
@@ -55,15 +63,15 @@ const Landing = () => {
                 </div>
             </div>
           </div>
-          <div className="flex-col mr-14 font-Sans-serif text-xl ">
-          <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-32 font-bold">
+          <div className="flex-col mr-14 font-Sans-serif text-xl m-auto ">
+          <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-10 font-bold">
           <Link to="/about">
           About Us 
           </Link>  
           </button>
          
               
-          <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5 font-bold">
+          <button className="block px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5  font-bold">
           <Link to="/approach">
           Our Approach 
           </Link>  
@@ -168,103 +176,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      
-       <div className="w-full mt-20 ">
-       <div className="w-full mt-20 ">
-             <p className="mt-15 mb-14 font-Sans-serif text-2xl font-light leading-12 tracking-tight">
-                OUR APPROACH
-             </p>
-             <p className=" m-auto font-Sans-serif font-light text-5xl w-7/12 leading-12 tracking-tight text-left mb-10">
-             We partner with healthcare facilities to co-create a positive feedback loop that begins with, 
-             we prepare data using international standards, increase use of data and ends with continually improving quality data.
-             
-             </p>
-          
-        </div>
-          
-        </div>
-        <div className="flex  py-10 ">
-        
-        <div className="flex  py-10 bg-blue-100">
-        
-        <div className="w-3/12 py-12 text-left float-right m-auto"> 
-          <h className="m-auto font-Sans-serif text-7xl w-10/12 font-light leading-12 tracking-tight break-words">
-           Leveraging high-quality data
-          </h>
-        </div>
-        <div className="w-8/12 ">
-        <ul className=" w-9/12 list-decimal py-12 mb-5 font-light text-2xl text-left  space-y-10 m-auto">
-               <li className="space-y-4 m-auto">	
-                 <p className="mb-5 mt-10 " >
-                 We help healthcare facilities harness the power of data to enhance healthcare delivery and inform policy decisions.
-                 </p>
-
-
-                  Our customized service helps health facilities improve data literacy, generate evidence, streamline data flow, curate data, 
-                  and monetize data. We offer training to healthcare facility staff on the entire research process, from generating research
-                  questions to writing manuscripts.
-
-
-                 <p>
-                 In addition to working with healthcare providers on the development of research outputs, we also offer suggestions for
-                 improving the efficiency of the facility.
-                 </p>
-              </li>
-               <li className=""> 
-               Primary data collection can be time-consuming and prone to bias, so we aim to assist governments and other organizations
-               in obtaining reliable data to answer their research questions in a timely and cost-effective manner.
-               </li>
-               
-            </ul>
-        </div>
-        
-      </div>
-      </div>
-      <div className="w-full mt-10 ">
-             <p className="mt-15 mb-10 font-Sans-serif text-2xl font-light leading-12 tracking-tight ">
-                OUR SERVICES
-             </p>
-             <p className="font-Sans-serif text-5xl font-light leading-12 tracking-tight m-auto w-8/12 mb-10">
-             Providing the expertise needed to turn data into a strategic asset
-             </p>
-          <div className=" p-5 w-1/2 ml-auto bg-blue-100">
-            
-             <p className=" font-Sans-serif text-2xl py-5 text-left m-auto w-9/12">
-             Increasing data literacy and research outputs 
-             </p>
-             <ul class="list-decimal text-left m-auto w-9/12 font-Sans-serif text-2xl font-light">
-               <li>Provide capacity building in statistics and research</li>
-               <li>Provide capacity building in research writing </li>
-               <li>Provide statistical support </li>
-            </ul>
-          </div>
-        </div>
-        <div className="p-5 w-1/2">
-          <div className="">
-             <p className="  font-Sans-serif text-2xl py-5 text-left m-auto w-9/12  ">
-             Design and implement a six-sigma system to improve data infrastructure
-             </p>
-             <ul class="w-9/12 list-decimal text-left m-auto font-Sans-serif text-2xl font-light">
-               <li>Mapping of existing data ecosystem</li>
-               <li>Support in creation of metadata (s)</li>
-               <li>Designing a six-sigma system to improve data quality  </li>
-            </ul>
-          </div>
-          <div className="w-3/12"></div>
-        </div>
-        <div className="w-full mt-10">
-          <div className=" p-5 w-1/2 ml-auto bg-blue-100">
-             <p className=" font-Sans-serif text-2xl py-5 m-auto w-9/12 text-left">
-             Design automated data curation AI algorithm
-             </p>
-             <ul class="list-decimal text-left m-auto w-9/12 text-2xl font-light">
-               <li>Working with healthcare facility to design automated data cleaning script</li>
-               <li>Creating automated script to transform existing data into research-grade format </li>
-               
-            </ul>
-          </div>
-        </div>
-        <div className="flex-col py-20">
+      <div className="flex-col py-10">
         <div className="flex">
           
           <div className="w-11/12 font-Sans-serif font-light text-2xl py-5 text-left m-auto ">
@@ -274,7 +186,7 @@ const Landing = () => {
         <div className="flex m-auto">
           
           <div className="w-7/12">
-            <p className="font-Sans-serif text-7xl w-10/12 font-light leading-12 tracking-tight text-left m-auto break-words">
+            <p className="font-Sans-serif text-5xl w-10/12 font-light leading-12 tracking-tight text-left m-auto break-words">
             Principles, beliefs and guidance.
             </p>
           </div>
@@ -290,6 +202,114 @@ const Landing = () => {
           </div>
         </div>
         </div>
+      
+       <div className="w-full mt-10 ">
+       <div className="w-full mt-20 ">
+             <p className="mt-15 mb-14 font-Sans-serif text-2xl font-light leading-12 tracking-tight">
+                OUR APPROACH
+             </p>
+             <p className=" m-auto font-Sans-serif font-light text-5xl w-7/12 leading-12 tracking-tight text-left mb-10">
+             We partner with you to co-create a positive feedback loop that begins with, 
+             we prepare data using international standards, increase use of data and ends with continually improving quality data.
+             
+             </p>
+          
+        </div>
+          
+        </div>
+        <div className="mt-24 mb-14 font-Sans-serif text-3xl font-medium leading-12 tracking-tight " >
+          OUR SERVICES
+        </div>
+        
+        
+        <div className="flex  py-5 bg-blue-100">
+        
+        <div className="w-3/12 py-12 text-left float-right m-auto"> 
+          <h className="m-auto  font-Sans-serif text-7xl w-10/12 font-light leading-12 tracking-tight break-words">
+           Capacity Building
+          </h>
+        </div>
+        <div className="w-7/12 ">
+        <ul class="list-disc text-left w-10/12 font-Sans-serif font-light m-auto text-2xl break-words m-10">
+               <li> Trainings</li>
+               <li> Coaching and Mentorship</li>
+               <li> Reasearch hub incubators</li>
+               <li> Fellowship </li>
+               
+            </ul>
+        </div>
+        </div>
+      
+        
+        <div className="flex  py-5 bg-blue-100">
+        
+        <div className="w-3/12 py-12 text-left float-right m-auto"> 
+          <h className="m-auto  font-Sans-serif text-7xl w-10/12 font-light leading-12 tracking-tight break-words">
+           Data Curation
+          </h>
+        </div>
+        <div className="w-7/12 ">
+        <ul class="list-disc text-left w-10/12 font-Sans-serif font-light m-auto text-2xl break-words m-10">
+               <li> Data Quality assessment</li>
+               <li> Data flow streamlined</li>
+               <li> Metadata creation</li>
+               <li> Data Cleaning </li>
+               <li> Data integration</li>
+            </ul>
+        </div>
+        
+      </div>
+      
+      
+      
+      <div className="flex py-5 bg-blue-100">
+        
+        <div className="flex  py-5">
+        
+        <div className="w-4/12 py-12 text-left float-right m-auto"> 
+          <h className="m-auto  font-Sans-serif text-7xl w-10/12 font-light leading-12 tracking-tight break-words">
+           Evidence Generation
+          </h>
+        </div>
+        <div className="w-6/12 ">
+        <ul class="list-disc text-left w-10/12 font-Sans-serif font-light m-auto text-2xl break-words ">
+               <li> Support in Study design</li>
+               <li> Data Analysis</li>
+               <li>Evidence Synthesis</li>
+               <li> Systematic reviews and Meta-analyses</li>
+               <li> Evidence-based guidelines and Recommendations</li>
+               <li> Support in Medical writing</li>
+            </ul>
+        </div>
+        
+      </div>
+      </div>
+      
+      <div className="flex py-5 ">
+        
+        <div className="flex  py-5 bg-blue-100">
+        
+        <div className="w-3/12 py-12 text-left float-right m-auto"> 
+          <h className="m-auto  font-Sans-serif text-7xl w-10/12 font-light leading-12 tracking-tight break-words">
+           Monitoring, Evaluation, Accountability and Learning
+          </h>
+        </div>
+        <div className="w-7/12 ">
+        <ul class="list-disc text-left w-10/12 font-Sans-serif font-light m-auto text-2xl break-words mt-32">
+               <li> Designing monitoring and Evaluation frameworks</li>
+               <li> Developing and Implementing monitoring and Evaluation plans</li>
+               <li> Conducting evaluations</li>
+               <li> Impact assessment </li>
+               <li> Establishing accountability mechanisms </li>
+               <li> Supporting organizational</li>
+            </ul>
+        </div>
+        
+      </div>
+      
+      </div>
+      
+        
         <div>
 
           <div className="p-5 m-auto" >
