@@ -10,6 +10,7 @@ import NotFound from "./components/NotFound";
 import Cart from "./components/Cart";
 import Services from "./components/Services";
 import Approach from "./components/Approach";
+import Contact from "./components/Contact";
 
 import "react-toastify/dist/ReactToastify.css";
 import Register from "./components/auth/Register";
@@ -42,6 +43,7 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/services" element={<Services />} />
             <Route path="/approach" element={<Approach />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </BrowserRouter>

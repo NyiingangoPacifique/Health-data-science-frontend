@@ -13,7 +13,7 @@ import Laura from "../img/laura.png"
 import Vision from "../img/vision.jpg"
 import Mission from "../img/mission.JPG"
 import Prince from "../img/prince.jpeg"
-
+import Melissa from "../img/melissa.jpg"
 
 
 
@@ -241,7 +241,7 @@ const Landing = () => {
            </div>
 
            <div className=" py-5">
-           <div className="flex  py-5 bg-blue-100">
+           <div className="flex  py-5">
         
         <div className="w-3/12  text-left float-right m-auto"> 
           <h className="m-auto  font-Sans-serif text-2xl w-10/12 font-light leading-12 tracking-tight break-words sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
@@ -287,9 +287,9 @@ const Landing = () => {
            </div>
 
            <div className="py-5">
-           <div className="flex py-5 ">
+           <div className="flex py-5">
         
-        <div className="flex  py-5 bg-blue-100 ">
+        <div className="flex  py-5 ">
         
         <div className="w-3/12 py-5 text-left float-right m-auto"> 
           <h className="m-auto  font-Sans-serif w-10/12 font-light text-2xl leading-12 tracking-tight break-words sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
@@ -433,7 +433,28 @@ const Landing = () => {
              </div>
             </div>
            </div>
-        <div>
+        
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+      <div class="md:flex">
+        <div class="md:shrink-0">
+        <img
+              className="text-white  m-auto object-full h-48 w-40 ml-3"
+              src={Melissa}
+              alt="Workflow"
+            />
+        </div>
+      <div class="p-8">
+           <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">UWASE Melissa</div>
+              <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Director of Epidemiology  </a>
+            <p class="mt-2 text-slate-500">
+            Melissa Uwase is a dedicated faculty member at the University of Rwanda and a talented epidemiologist. 
+            With a strong passion for mentorship and evidence-based approaches, Melissa is committed to improving lives through her work.
+            </p>
+        </div>
+      </div>
+     </div>
+        
+
         <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
       <div class="md:flex">
         <div class="md:shrink-0">
@@ -453,7 +474,7 @@ const Landing = () => {
         </div>
       </div>
      </div>
-        </div>
+        
         </div>
           </div>}
        {activeButton === 'Experts' &&
@@ -491,16 +512,20 @@ const Landing = () => {
                 </div>
         <div className=" mt-10  m-auto">
         
-            <p className="font-Sans-serif font-light leading-12 tracking-tight sm:text-xl md:text-xl lg:text-2xl xl:text-2xl">
-             Platform
-            </p>
+        <button className="block px-4 py-2  border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5  font-bold sm:text-xl md:text-xl lg:text-xl xl:text-xl">
+          <Link to="/contact">
+          Talk to Us 
+          </Link>  
+          </button>
             
           </div>
           <div className=" mt-10  m-auto">
           
-            <p className="font-Sans-serif  font-light leading-12 tracking-tight sm:text-xl md:text-xl lg:text-2xl xl:text-2xl">
-             About Us
-            </p>
+          <button className="block px-4 py-2  border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white mt-5  font-bold sm:text-xl md:text-xl lg:text-xl xl:text-xl">
+          <Link to="/about">
+          About Us 
+          </Link>  
+          </button>  
             
           
           </div>

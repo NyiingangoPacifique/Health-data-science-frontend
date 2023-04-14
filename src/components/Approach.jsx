@@ -14,7 +14,7 @@ return (
              <p className="mt-15 mb-14 font-Sans-serif text-2xl font-semibold leading-12 tracking-tight sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl">
                 OUR APPROACH
              </p>
-             <p className=" m-auto font-Sans-serif font-light text-2xl w-7/12 leading-12 tracking-tight text-left mb-10 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+             <p className=" m-auto font-Sans-serif font-light text-2xl w-7/12 leading-12 tracking-tight text-left mb-20 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
              We partner with you to co-create a positive feedback loop that begins with, 
              we prepare data using international standards, increase use of data and ends with continually improving quality data.
              
