@@ -386,7 +386,7 @@ const Landing = () => {
                  </div>
               <div class="p-8">
              <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Pascal BIRINDABAGABO </div>
-               <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Scientific Officer</a>
+               <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Technical Officer</a>
                <p class="mt-2 text-slate-500">
                 Pascal currently consults for the African Union Commission as a Senior Public Health
                 Specialist focusing in developing Domestic Health Financing and has mustered up more than a decade of experience in the health sector.
@@ -427,7 +427,7 @@ const Landing = () => {
              </div>
               <div class="p-8">
                 <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">UMUTESI RUSA Divine</div>
-                  <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Medical officer</a>
+                  <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Scientific officer</a>
                   <p class="mt-2 text-slate-500">Dr Divine is a medical doctor at Kibagabaga level 2 teaching hospital specifically in the internal medicine department and an MSc candidate in Epidemiology. </p>
                </div>
              </div>
