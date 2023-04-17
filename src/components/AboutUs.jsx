@@ -10,6 +10,7 @@ import logo from "../img/logo2.jpg"
 import Vision from "../img/vision.jpg"
 import Mission from "../img/mission.JPG"
 import Prince from "../img/prince.jpeg"
+import Melissa from "../img/melissa.jpg"
 
 
 
