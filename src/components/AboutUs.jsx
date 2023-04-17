@@ -129,7 +129,7 @@ const AboutUs = () => {
        </div>
     <div class="p-8">
    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Pascal BIRINDABAGABO </div>
-     <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Scientific Officer</a>
+     <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Technical Officer</a>
      <p class="mt-2 text-slate-500">
       Pascal currently consults for the African Union Commission as a Senior Public Health
       Specialist focusing in developing Domestic Health Financing and has mustered up more than a decade of experience in the health sector.
@@ -170,12 +170,31 @@ const AboutUs = () => {
    </div>
     <div class="p-8">
       <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">UMUTESI RUSA Divine</div>
-        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Medical officer</a>
+        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Chief Scientific officer</a>
         <p class="mt-2 text-slate-500">Dr Divine is a medical doctor at Kibagabaga level 2 teaching hospital specifically in the internal medicine department and an MSc candidate in Epidemiology.</p>
      </div>
    </div>
   </div>
  </div>
+ <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+      <div class="md:flex">
+        <div class="md:shrink-0">
+        <img
+              className="text-white  m-auto object-full h-48 w-40 ml-3"
+              src={Melissa}
+              alt="Workflow"
+            />
+        </div>
+      <div class="p-8">
+           <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">UWASE Melissa</div>
+              <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Director of Epidemiology  </a>
+            <p class="mt-2 text-slate-500">
+            Melissa Uwase is a dedicated faculty member at the University of Rwanda and a talented epidemiologist. 
+            With a strong passion for mentorship and evidence-based approaches, Melissa is committed to improving lives through her work.
+            </p>
+        </div>
+      </div>
+     </div>
 <div>
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
 <div class="md:flex">
