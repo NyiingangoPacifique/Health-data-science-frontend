@@ -445,7 +445,7 @@ const Landing = () => {
         </div>
       <div class="p-8">
            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">UWASE Melissa</div>
-              <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Director of Epidemiology  </a>
+              <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Director of Epidemiology and Disease modeling  </a>
             <p class="mt-2 text-slate-500">
             Melissa Uwase is a dedicated faculty member at the University of Rwanda and a talented epidemiologist. 
             With a strong passion for mentorship and evidence-based approaches, Melissa is committed to improving lives through her work.
